@@ -1,0 +1,35 @@
+@media(max-width : 779px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media(max-width : 635px){
+    .container::before{
+        display: none;
+    }
+    form{
+        width: 80%;
+    }
+    form.sign-up-form{
+        display: none;
+    }
+    .container.sign-up-mode2 form.sign-up-form{
+        display: flex;
+        opacity: 1;
+    }
+    .container.sign-up-mode2 form.sign-in-form{
+        display: none;
+    }
+    .panels-container{
+        display: none;
+    }
+    .account-text{
+        display: initial;
+    }
+}
+@media(max-width : 320px){
+    form{
+        width: 90%;
+    }
+}

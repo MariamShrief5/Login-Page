@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to DoTask</title>
+    <!-- Fav Icon -->
+    <link rel="icon" href="./SVG/favicon.png?v=2">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+     <!-- Font Google -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Media Query -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Toaster CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="signin-signup">
+                <form method="post" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="username" id="login-username" placeholder="Username">
+                    </div>
+                    <div id="nameValid" class="text-danger d-none"> <i class="fa-solid fa-circle-exclamation"></i> Please Enter Valid Name</div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="login-password" placeholder="Password">
+                    </div>
+                    <div id="passValid" class="text-danger d-none"> <i class="fa-solid fa-circle-exclamation"></i> Please Enter Valid Password</div>
+                    <div id="login-error-message" class="text-danger"></div>
+                    <!-- <input type="submit" value="login" class="btnn" onclick="login()"> -->
+                    <button class="btn btn-primary px-4 py-2 rounded-pill" type="button" id="login-username" onclick="login()">Login</button>
+                    <p class="social-text">Or sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://mail.google.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="account-text mt-5">Don't have an account? <a href="#" id="sign-up-btn2">Sign Up</a> </p>
+                </form>
+                <form method="post" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="username" id="signName" placeholder="Username">
+                    </div>
+                    <div id="userName-error-message" class="text-danger d-none">
+                          Please Enter Valid Username
+                        </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="signEmail" placeholder="Email">
+                    </div>
+                    <div id="email-error-message" class="text-danger d-none"> <i class="fa-solid fa-circle-exclamation"></i> Please Enter Valid Email</div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" id="signPassword" placeholder="Password">
+                    </div>
+                    <div id="signup-error-message" class="text-danger"></div>
+                    <!-- <input type="submit" value="signup" class="btnn"> -->
+                    <button class="btn btn-primary px-4 py-2 rounded-pill" type="button" id="signUp">SignUp</button>
+                    <p class="social-text">Or sign up with social platform</p>
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://x.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://mail.google.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="account-text mt-5">Already have an account? <a href="#" id="sign-in-btn2">Sign In</a> </p>
+                </form>
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Welcome Back!</h3>
+                        <p>To keep connected with us, Please login with your personal info</p>
+                        <button class="btnn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="./SVG/undraw_happy_feeling_re_e76r.svg" alt="Sign in Photo" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>Hello, Friend!</h3>
+                        <p>Enter your personal details, And start journey with us!</p>
+                        <button class="btnn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="./SVG/undraw_completing_re_i7ap.svg" alt="Sign up Photo" class="image w-75">
+                </div>
+            </div>
+            <div class="alretContainer position-fixed top-0 end-0 start-0 bottom-0 pt-4 d-none " id="closeWindow">
+                <div class="alertItem w-50 mx-auto bg-white p-4 pb-0 mt-5 my-auto">
+                    <div class="head d-flex justify-content-between border-bottom p-2">
+                        <div class="d-flex gap-2">
+                        <div class="circle red"></div>
+                        <div class="circle yellow"></div>
+                        <div class="circle green"></div>
+                        </div>
+                        <i id="close" class="fa-solid fa-x fs-5"></i>
+                    </div>
+                    <p id="errorMessage" class="text-black p-3 h5 mt-4"></p>
+                    <button id="startBtn" onclick="start()" class=" btn btn-primary rounded-pill mb-3 mt-3" type="button">Let's Start</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/main.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>  
+</body>
