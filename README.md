@@ -144,10 +144,6 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
   "error": "Unauthorized access. Please log in again."
 }
 ```
-In the **Tools and Technologies** section for a login and signup (registration) page, you can list the main frameworks, libraries, and tools used to build the project. Here’s an example of what this might look like in a README file:
-
----
-
 ## Tools and Technologies
 
 ### Frontend
