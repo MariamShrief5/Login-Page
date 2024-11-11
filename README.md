@@ -183,9 +183,9 @@ https://github.com/user-attachments/assets/deb6e1bb-afc7-4c34-82cc-ee7aa779426f
 ![Screenshot 5](https://drive.google.com/uc?export=view&id=1Yx__5_gECQ3fjDdNGTWKgZFrxF1RMobg)
 # Congratulations, Your Account Has Been Successfully Created, You Can Now Able To Login 
 ![Screenshot 6](https://drive.google.com/uc?export=view&id=1vVPP1KPjTtXvCzqwHjFZ_X2VlOMOZt1j)
-# Enter User Data With Which The Account Was Registered (Sensitive Case), If Enter (memo) With The First Letter is Small, Will Output Message Invalid Username  
+# Enter User Data With Which The Account Was Registered (Sensitive Case), If Enter (memo) With The First Letter is "Small", When Click On Login Button ,Will Output Message is > "Invalid Username"
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1S12z-VfW1bmvcadzepHyigumYMBJsCJK)
-# The Correct Username IS > (Memo) With The First Letter is Capital
+# The Correct Username IS > (Memo) With The First Letter is "Capital"
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1qc_xUac3p2UVulfF5n86oN9jCdLpgyLJ)
 # Finally, Login and You Can Now Click on Let's Start Button and Enter Our Dashboard System
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1J0r-i862cAGlwUnaTI7pcA8wfgYJw4aj)
