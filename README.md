@@ -168,10 +168,11 @@ In the **Tools and Technologies** section for a login and signup (registration) 
 - **Mongoose**: An ODM (Object Data Modeling) library for MongoDB, used to manage database interactions.
 
 # Demo:
-https://github.com/user-attachments/assets/90c68edd-2ad0-4fe5-8656-b7713f3e390d
+https://github.com/user-attachments/assets/deb6e1bb-afc7-4c34-82cc-ee7aa779426f
+
 # Screenshots:
 # Dark Mode
-![Screenshot 1](https://drive.google.com/uc?export=view&id=1JUknhjN2LW6LBGHNHtSaELxxiKmj9-MI)    
+![Screenshot 1](https://drive.google.com/uc?export=view&id=1Qi-dIOTjmlYq-Y22HmrJ4CEb8WdmyzFR)    
 # Light Mode 
 ![Screenshot 2](https://drive.google.com/uc?export=view&id=1smzI9aq9JCx-F2lTr91PNzMgyowdDDpI)
 # Ask a Question and Show a Loading Animation while waiting the API Response
