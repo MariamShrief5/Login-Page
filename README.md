@@ -171,21 +171,21 @@ In the **Tools and Technologies** section for a login and signup (registration) 
 https://github.com/user-attachments/assets/deb6e1bb-afc7-4c34-82cc-ee7aa779426f
 
 # Screenshots:
-# Dark Mode
+# Login Page
 ![Screenshot 1](https://drive.google.com/uc?export=view&id=1Qi-dIOTjmlYq-Y22HmrJ4CEb8WdmyzFR)    
-# Light Mode 
+# Validation If User Click on Login Button Without Enter Your Valid Data Username and Password  
 ![Screenshot 2](https://drive.google.com/uc?export=view&id=1XzFqsfN5xZYxmEHOVWSlPxkqIxxxEMMp)
-# Ask a Question and Show a Loading Animation while waiting the API Response
+# SignUP Page
 ![Screenshot 3](https://drive.google.com/uc?export=view&id=1eUll9sJo6tF-YhjuMdz4qPEqoqWz4ZmQ)
-# Disappear a Loading Animation and Show API Response 
+# Validation If User Click on SignUp Button Without Enter Your Valid Data Username, Email and Password , For Registration 
 ![Screenshot 4](https://drive.google.com/uc?export=view&id=1B5E6TOKp83zb0kOAUGhvqYXiBHzMZWIB)
-# Another Questions 
+# Enter Valid Data about User This The First Time Visit The Site , The User Must Register Data in Order to Create an Account to Login and Enter to Dashboard
 ![Screenshot 5](https://drive.google.com/uc?export=view&id=1Yx__5_gECQ3fjDdNGTWKgZFrxF1RMobg)
-# You can choose One Question From 4 Crads in The First Page Such This Question, I Focus on it:
+# Congratulations, Your Account Has Been Successfully Created, You Can Now Able To Login 
 ![Screenshot 6](https://drive.google.com/uc?export=view&id=1vVPP1KPjTtXvCzqwHjFZ_X2VlOMOZt1j)
-# Once you Click on it!, ConvoCraft show For You a Response in Dynamic Way
+# Enter User Data With Which The Account Was Registered (Sensitive Case), If Enter (memo) With The First Letter is Small, Will Output Message Invalid Username  
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1S12z-VfW1bmvcadzepHyigumYMBJsCJK)
-# Once you Click on it!, ConvoCraft show For You a Response in Dynamic Way
+# The Correct Username IS > (Memo) With The First Letter is Capital
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1qc_xUac3p2UVulfF5n86oN9jCdLpgyLJ)
-# Once you Click on it!, ConvoCraft show For You a Response in Dynamic Way
+# Finally, Login and You Can Now Click on Let's Start Button and Enter Our Dashboard System
 ![Screenshot 7](https://drive.google.com/uc?export=view&id=1J0r-i862cAGlwUnaTI7pcA8wfgYJw4aj)
