@@ -4,8 +4,6 @@ A project centered on a Login and Signup (Registration) Page is essentially a Us
 # Project Description:
 This project features a user authentication system with both a Signup (Registration) Page and a Login Page, designed to securely handle user access. The Registration Page allows new users to create an account by providing essential information, such as a username, email, and password. The Login Page enables existing users to access their account with their registered credentials.
 
-In the **Project Details** section for a login and signup (registration) page, you want to describe the specific functionality and structure of each feature. This provides a clear view of how the system works and the technical details that make it secure and user-friendly. Here’s an example:
-
 ## Project Details
 
 This project is a user authentication system with a **Signup (Registration) Page** and a **Login Page**. Here’s a breakdown of the functionality and technical implementation:
