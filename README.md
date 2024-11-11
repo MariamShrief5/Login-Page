@@ -174,11 +174,11 @@ https://github.com/user-attachments/assets/deb6e1bb-afc7-4c34-82cc-ee7aa779426f
 # Dark Mode
 ![Screenshot 1](https://drive.google.com/uc?export=view&id=1Qi-dIOTjmlYq-Y22HmrJ4CEb8WdmyzFR)    
 # Light Mode 
-![Screenshot 2](https://drive.google.com/uc?export=view&id=1smzI9aq9JCx-F2lTr91PNzMgyowdDDpI)
+![Screenshot 2](https://drive.google.com/uc?export=view&id=1XzFqsfN5xZYxmEHOVWSlPxkqIxxxEMMp)
 # Ask a Question and Show a Loading Animation while waiting the API Response
-![Screenshot 3](https://drive.google.com/uc?export=view&id=1hFpciYJ8vJbLf1mqtCifdRFuCbcJ01rZ)
+![Screenshot 3](https://drive.google.com/uc?export=view&id=1eUll9sJo6tF-YhjuMdz4qPEqoqWz4ZmQ)
 # Disappear a Loading Animation and Show API Response 
-![Screenshot 4](https://drive.google.com/uc?export=view&id=1PCrE6mzMqqzWc-7Sc1mjVzcmJYo2pvtC)
+![Screenshot 4](https://drive.google.com/uc?export=view&id=1B5E6TOKp83zb0kOAUGhvqYXiBHzMZWIB)
 # Another Questions 
 ![Screenshot 5](https://drive.google.com/uc?export=view&id=1FpouMxZeA_-RtuBber7a1lCPEFjvTrAy)
 # You can choose One Question From 4 Crads in The First Page Such This Question, I Focus on it:
