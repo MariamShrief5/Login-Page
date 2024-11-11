@@ -157,7 +157,7 @@ In the **Tools and Technologies** section for a login and signup (registration) 
 ### Frontend
 - **HTML/CSS**: For structuring and styling the user interface.
 - **JavaScript**: Adds interactivity to the pages.
-- **Bootstrap: CSS frameworks to create responsive, visually appealing layouts.
+- **Bootstrap**: CSS frameworks to create responsive, visually appealing layouts.
 
 ### Backend
 - **Node.js**: JavaScript runtime for building the backend server.
