@@ -49,8 +49,6 @@ This project is a user authentication system with a **Signup (Registration) Page
    - **Token-Based Authentication**: Generates JWTs (JSON Web Tokens) for each session to authenticate users across requests.
    - **Environment Variables**: Stores sensitive data (e.g., database URL, JWT secret) in environment variables to keep the system secure.
 
-Here’s an **Example Usage** section tailored for a GitHub README, focusing on a **Login and Signup (Registration) Page** project. This shows potential users or contributors how the API works, with sample endpoints, requests, and responses.
-
 ## Example Usage
 
 This project provides API endpoints for **user registration** (signup) and **login**. Below are examples of how to use these endpoints.
